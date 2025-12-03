@@ -6,6 +6,9 @@
     text-decoration: none;
     list-style-type: none;
 }
+.promo-alert {
+    background-color: aliceblue;
+}
 header{
     background-color: #e8e8e8;
 }
