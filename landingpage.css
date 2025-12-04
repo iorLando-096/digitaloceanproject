@@ -27,3 +27,59 @@ nav{
 .menu-list li a{
     color: #222;
 }
+.button-icons{
+    display: flex;
+    align-items: center;
+}
+.button-icons button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F6941E;
+}
+.button-icons button a{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.fa-bars{
+    font-size: 2em;
+    border: 2px solid black;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+    border: none;
+    display: none;
+}
+
+@media(max-width:1024px){
+    .button-icons button{
+        padding: 5px 12px;
+    }
+}
+@media(max-width:745px){
+    nav{
+        width: 100%;
+    }
+}
+@media(max-width:735px){
+    nav{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .menu-list{
+        display: none;
+    }
+    .button-icons button{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .logo{
+        width: 120px;
+    }
+}
